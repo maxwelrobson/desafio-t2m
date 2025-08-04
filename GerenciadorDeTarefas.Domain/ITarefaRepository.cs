@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace GerenciadorDeTarefas.Domain
 {
-    internal interface ITarefaRepository
+    public interface ITarefaRepository
     {
+        Task<Tarefa?> ObterPorIdAsync(Guid id);
+        Task<IEnumerable<Tarefa>> ObterTodasAsync();
+        Task AdicionarAsync(Tarefa tarefa);
+        Task AtualizarAsync(Tarefa tarefa);
+        Task RemoverAsync(Guid id);
     }
 }
