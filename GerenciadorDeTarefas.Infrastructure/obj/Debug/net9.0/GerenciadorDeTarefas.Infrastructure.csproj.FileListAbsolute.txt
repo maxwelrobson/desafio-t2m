@@ -1,0 +1,16 @@
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\bin\Debug\net9.0\GerenciadorDeTarefas.Infrastructure.deps.json
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\bin\Debug\net9.0\GerenciadorDeTarefas.Infrastructure.dll
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\bin\Debug\net9.0\GerenciadorDeTarefas.Infrastructure.pdb
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\bin\Debug\net9.0\GerenciadorDeTarefas.Domain.dll
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\bin\Debug\net9.0\GerenciadorDeTarefas.Domain.pdb
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\obj\Debug\net9.0\GerenciadorDeTarefas.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\obj\Debug\net9.0\GerenciadorDeTarefas.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\obj\Debug\net9.0\GerenciadorDeTarefas.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\obj\Debug\net9.0\GerenciadorDeTarefas.Infrastructure.AssemblyInfo.cs
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\obj\Debug\net9.0\GerenciadorDeTarefas.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\obj\Debug\net9.0\GerenciadorDeTarefas.Infrastructure.sourcelink.json
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\obj\Debug\net9.0\Gerencia.6B667E94.Up2Date
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\obj\Debug\net9.0\GerenciadorDeTarefas.Infrastructure.dll
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\obj\Debug\net9.0\refint\GerenciadorDeTarefas.Infrastructure.dll
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\obj\Debug\net9.0\GerenciadorDeTarefas.Infrastructure.pdb
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Infrastructure\obj\Debug\net9.0\ref\GerenciadorDeTarefas.Infrastructure.dll

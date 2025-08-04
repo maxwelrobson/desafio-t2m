@@ -1,0 +1,9 @@
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Api\obj\Debug\net9.0\GerenciadorDeTarefas.Api.csproj.AssemblyReference.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Api\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Api\obj\Debug\net9.0\GerenciadorDeTarefas.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Api\obj\Debug\net9.0\GerenciadorDeTarefas.Api.AssemblyInfoInputs.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Api\obj\Debug\net9.0\GerenciadorDeTarefas.Api.AssemblyInfo.cs
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Api\obj\Debug\net9.0\GerenciadorDeTarefas.Api.csproj.CoreCompileInputs.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Api\obj\Debug\net9.0\GerenciadorDeTarefas.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Api\obj\Debug\net9.0\GerenciadorDeTarefas.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Api\obj\Debug\net9.0\GerenciadorDeTarefas.Api.sourcelink.json

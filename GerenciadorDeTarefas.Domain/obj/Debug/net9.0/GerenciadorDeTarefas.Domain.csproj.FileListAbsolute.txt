@@ -1,0 +1,12 @@
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Domain\bin\Debug\net9.0\GerenciadorDeTarefas.Domain.deps.json
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Domain\bin\Debug\net9.0\GerenciadorDeTarefas.Domain.dll
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Domain\bin\Debug\net9.0\GerenciadorDeTarefas.Domain.pdb
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Domain\obj\Debug\net9.0\GerenciadorDeTarefas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Domain\obj\Debug\net9.0\GerenciadorDeTarefas.Domain.AssemblyInfoInputs.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Domain\obj\Debug\net9.0\GerenciadorDeTarefas.Domain.AssemblyInfo.cs
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Domain\obj\Debug\net9.0\GerenciadorDeTarefas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Domain\obj\Debug\net9.0\GerenciadorDeTarefas.Domain.sourcelink.json
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Domain\obj\Debug\net9.0\GerenciadorDeTarefas.Domain.dll
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Domain\obj\Debug\net9.0\refint\GerenciadorDeTarefas.Domain.dll
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Domain\obj\Debug\net9.0\GerenciadorDeTarefas.Domain.pdb
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Domain\obj\Debug\net9.0\ref\GerenciadorDeTarefas.Domain.dll

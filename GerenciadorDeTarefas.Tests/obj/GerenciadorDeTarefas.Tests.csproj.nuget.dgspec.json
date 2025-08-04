@@ -34,6 +34,9 @@
             "projectReferences": {
               "C:\\Users\\maxps\\OneDrive\\Área de Trabalho\\Desafio processo seletivo - T2M\\GerenciadorDeTarefas\\GerenciadorDeTarefas.Application\\GerenciadorDeTarefas.Application.csproj": {
                 "projectPath": "C:\\Users\\maxps\\OneDrive\\Área de Trabalho\\Desafio processo seletivo - T2M\\GerenciadorDeTarefas\\GerenciadorDeTarefas.Application\\GerenciadorDeTarefas.Application.csproj"
+              },
+              "C:\\Users\\maxps\\OneDrive\\Área de Trabalho\\Desafio processo seletivo - T2M\\GerenciadorDeTarefas\\GerenciadorDeTarefas.Infrastructure\\GerenciadorDeTarefas.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\maxps\\OneDrive\\Área de Trabalho\\Desafio processo seletivo - T2M\\GerenciadorDeTarefas\\GerenciadorDeTarefas.Infrastructure\\GerenciadorDeTarefas.Infrastructure.csproj"
               }
             }
           }
@@ -57,6 +60,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
           "imports": [

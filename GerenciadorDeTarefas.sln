@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36327.8 d17.14
+VisualStudioVersion = 17.14.36327.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeTarefas.Domain", "GerenciadorDeTarefas.Domain\GerenciadorDeTarefas.Domain.csproj", "{72619804-1884-495C-B1F8-CB020BA4FF18}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeTarefas.Infrastructure", "GerenciadorDeTarefas.Infrastructure\GerenciadorDeTarefas.Infrastructure.csproj", "{484A1EBB-AEF4-4D16-AAC8-AC306AD58DB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeTarefas.Api", "GerenciadorDeTarefas.Api\GerenciadorDeTarefas.Api.csproj", "{9B99E9AD-038F-4DC0-80D1-A4A0B1BDBB70}"
+	ProjectSection(ProjectDependencies) = postProject
+		{484A1EBB-AEF4-4D16-AAC8-AC306AD58DB0} = {484A1EBB-AEF4-4D16-AAC8-AC306AD58DB0}
+		{72619804-1884-495C-B1F8-CB020BA4FF18} = {72619804-1884-495C-B1F8-CB020BA4FF18}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeTarefas.Tests", "GerenciadorDeTarefas.Tests\GerenciadorDeTarefas.Tests.csproj", "{E798743B-AC92-45CD-B3B1-6777707BADE7}"
 EndProject

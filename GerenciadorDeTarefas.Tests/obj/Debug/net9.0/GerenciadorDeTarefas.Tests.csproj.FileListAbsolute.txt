@@ -1,0 +1,8 @@
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_GerenciadorDeTarefas.Tests
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_GerenciadorDeTarefas.Tests
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Tests\obj\Debug\net9.0\GerenciadorDeTarefas.Tests.csproj.AssemblyReference.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Tests\obj\Debug\net9.0\GerenciadorDeTarefas.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Tests\obj\Debug\net9.0\GerenciadorDeTarefas.Tests.AssemblyInfoInputs.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Tests\obj\Debug\net9.0\GerenciadorDeTarefas.Tests.AssemblyInfo.cs
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Tests\obj\Debug\net9.0\GerenciadorDeTarefas.Tests.csproj.CoreCompileInputs.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Tests\obj\Debug\net9.0\GerenciadorDeTarefas.Tests.sourcelink.json

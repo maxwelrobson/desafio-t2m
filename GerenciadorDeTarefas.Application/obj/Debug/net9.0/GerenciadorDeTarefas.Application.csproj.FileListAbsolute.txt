@@ -1,0 +1,16 @@
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\bin\Debug\net9.0\GerenciadorDeTarefas.Application.deps.json
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\bin\Debug\net9.0\GerenciadorDeTarefas.Application.dll
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\bin\Debug\net9.0\GerenciadorDeTarefas.Application.pdb
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\bin\Debug\net9.0\GerenciadorDeTarefas.Domain.dll
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\bin\Debug\net9.0\GerenciadorDeTarefas.Domain.pdb
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\obj\Debug\net9.0\GerenciadorDeTarefas.Application.csproj.AssemblyReference.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\obj\Debug\net9.0\GerenciadorDeTarefas.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\obj\Debug\net9.0\GerenciadorDeTarefas.Application.AssemblyInfoInputs.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\obj\Debug\net9.0\GerenciadorDeTarefas.Application.AssemblyInfo.cs
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\obj\Debug\net9.0\GerenciadorDeTarefas.Application.csproj.CoreCompileInputs.cache
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\obj\Debug\net9.0\GerenciadorDeTarefas.Application.sourcelink.json
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\obj\Debug\net9.0\Gerencia.C152AD93.Up2Date
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\obj\Debug\net9.0\GerenciadorDeTarefas.Application.dll
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\obj\Debug\net9.0\refint\GerenciadorDeTarefas.Application.dll
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\obj\Debug\net9.0\GerenciadorDeTarefas.Application.pdb
+C:\Users\maxps\OneDrive\Área de Trabalho\Desafio processo seletivo - T2M\GerenciadorDeTarefas\GerenciadorDeTarefas.Application\obj\Debug\net9.0\ref\GerenciadorDeTarefas.Application.dll

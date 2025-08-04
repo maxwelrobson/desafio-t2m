@@ -15,6 +15,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GerenciadorDeTarefas.Api\GerenciadorDeTarefas.Api.csproj" />
+    <ProjectReference Include="..\GerenciadorDeTarefas.Application\GerenciadorDeTarefas.Application.csproj" />
+    <ProjectReference Include="..\GerenciadorDeTarefas.Infrastructure\GerenciadorDeTarefas.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 

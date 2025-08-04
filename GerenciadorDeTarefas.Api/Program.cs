@@ -1,41 +1,43 @@
+using GerenciadorDeTarefas.Application;
+using GerenciadorDeTarefas.Domain;
+using GerenciadorDeTarefas.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+// --- Seção de Configuração de Serviços ---
+
+// 1. Adiciona o serviço para habilitar o uso de Controllers
+builder.Services.AddControllers();
+
+// 2. Serviços para a documentação da API (Swagger/OpenAPI)
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// 3. Registro das nossas interfaces e implementações (Injeção de Dependência)
+builder.Services.AddScoped<ITarefaRepository, TarefaRepository>();
+builder.Services.AddScoped<ITarefaService, TarefaService>();
+
+
+// --- Fim da Seção de Serviços ---
+
 
 var app = builder.Build();
 
+// --- Seção de Configuração do Pipeline HTTP ---
+
 // Configure the HTTP request pipeline.
+// Em ambiente de desenvolvimento, habilitamos a interface do Swagger
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+// 4. Mapeia as rotas definidas nos seus Controllers
+app.MapControllers();
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+// --- Fim da Seção de Pipeline ---
 
 app.Run();
-
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
