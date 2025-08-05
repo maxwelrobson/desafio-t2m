@@ -1,4 +1,5 @@
 ﻿using GerenciadorDeTarefas.Application.DTOs;
+using GerenciadorDeTarefas.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,6 +57,54 @@ namespace GerenciadorDeTarefas.Tests
             var tarefaBuscada = await getResponse.Content.ReadFromJsonAsync<TarefaResponseDTO>();
             Assert.NotNull(tarefaBuscada);
             Assert.Equal(tarefaCriada.Id, tarefaBuscada.Id);
+        }
+
+        [Fact]
+        public async Task Put_ShouldUpdateExistingTask()
+        {
+            // Arrange
+            // Cria uma tarefa para poder atualizá-la
+            var novaTarefaDto = new CriarTarefaRequestDTO("Tarefa para Atualizar", "Descrição inicial.");
+            var postResponse = await _client.PostAsJsonAsync("/api/tarefas", novaTarefaDto);
+            var tarefaCriada = await postResponse.Content.ReadFromJsonAsync<TarefaResponseDTO>();
+            Assert.NotNull(tarefaCriada);
+
+            // Cria um DTO para atualizar a tarefa
+            var updateDto = new AtualizarTarefaRequestDTO("Tarefa Atualizada!", "Descrição atualizada.", StatusTarefa.Concluida);
+
+            // Act
+            // Atualiza a tarefa que acabamos de criar
+            var putResponse = await _client.PutAsJsonAsync($"/api/tarefas/{tarefaCriada.Id}", updateDto);
+
+            // Assert - Verifique se a atualização foi bem-sucedida
+            Assert.Equal(HttpStatusCode.OK, putResponse.StatusCode);
+            var tarefaRetornada = await putResponse.Content.ReadFromJsonAsync<TarefaResponseDTO>();
+            Assert.NotNull(tarefaRetornada);
+            Assert.Equal("Tarefa Atualizada!", tarefaRetornada.Titulo);
+            Assert.Equal(StatusTarefa.Concluida, tarefaRetornada.Status);
+        }
+
+        [Fact]
+        public async Task Delete_ShouldRemoveExistingTask()
+        {
+            // Arrange
+            // Cria uma tarefa para poder deletá-la
+            var novaTarefaDto = new CriarTarefaRequestDTO("Tarefa para Deletar", "Descrição.");
+            var postResponse = await _client.PostAsJsonAsync("/api/tarefas", novaTarefaDto);
+            var tarefaCriada = await postResponse.Content.ReadFromJsonAsync<TarefaResponseDTO>();
+            Assert.NotNull(tarefaCriada);
+
+            // Act
+            // Deleta a tarefa
+            var deleteResponse = await _client.DeleteAsync($"/api/tarefas/{tarefaCriada.Id}");
+
+            // Assert
+            // Verifica se o delete foi bem-sucedido
+            Assert.Equal(HttpStatusCode.NoContent, deleteResponse.StatusCode); // 204 No Content é o sucesso para DELETE
+
+            //Tenta buscar a tarefa deletada e verifique se ela não é encontrada (404)
+            var getResponse = await _client.GetAsync($"/api/tarefas/{tarefaCriada.Id}");
+            Assert.Equal(HttpStatusCode.NotFound, getResponse.StatusCode);
         }
     }
 }
