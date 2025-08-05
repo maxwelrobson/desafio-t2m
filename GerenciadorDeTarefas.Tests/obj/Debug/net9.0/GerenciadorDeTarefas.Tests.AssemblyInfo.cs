@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GerenciadorDeTarefas.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bad47415d8c2cf6aa82c42626f3eb66ceeef3f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8af712b58771983fe258fd632b0e8f91eb300156")]
 [assembly: System.Reflection.AssemblyProductAttribute("GerenciadorDeTarefas.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GerenciadorDeTarefas.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

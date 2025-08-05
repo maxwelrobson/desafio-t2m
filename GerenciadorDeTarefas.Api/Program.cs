@@ -4,8 +4,6 @@ using GerenciadorDeTarefas.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-
 //Serviço para habilitar o uso de Controllers
 builder.Services.AddControllers();
 
@@ -16,8 +14,6 @@ builder.Services.AddSwaggerGen();
 //Registro das interfaces e implementações (Injeção de Dependência)
 builder.Services.AddScoped<ITarefaRepository, TarefaRepository>();
 builder.Services.AddScoped<ITarefaService, TarefaService>();
-
-
 
 var app = builder.Build();
 
@@ -35,3 +31,5 @@ app.UseHttpsRedirection();
 app.MapControllers();
 
 app.Run();
+
+public partial class Program { }
