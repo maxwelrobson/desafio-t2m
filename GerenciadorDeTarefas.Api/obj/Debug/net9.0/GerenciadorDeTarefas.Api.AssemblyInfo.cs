@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GerenciadorDeTarefas.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa1c7102c445f7bd0d61fab9a84a7231711053d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2538af93d8b2dde4b655a0c378f2037adfd66717")]
 [assembly: System.Reflection.AssemblyProductAttribute("GerenciadorDeTarefas.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GerenciadorDeTarefas.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
