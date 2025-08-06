@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aa7b2731-23a5-4ac9-a646-d9c46d0cb5e0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("GerenciadorDeTarefas.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36afd24a6295849bfa134e6ba6c13774b6cf99d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99861005dd94f383e59a7653082ed0ee7bd19302")]
 [assembly: System.Reflection.AssemblyProductAttribute("GerenciadorDeTarefas.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GerenciadorDeTarefas.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,6 +7,7 @@
     <IsPackable>false</IsPackable>
 	<UseAppHost>false</UseAppHost>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	<UserSecretsId>aa7b2731-23a5-4ac9-a646-d9c46d0cb5e0</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

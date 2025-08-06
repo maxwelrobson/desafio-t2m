@@ -2,16 +2,11 @@
 using GerenciadorDeTarefas.Application.DTOs;
 using GerenciadorDeTarefas.Domain;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 
 namespace GerenciadorDeTarefas.Tests
 {
-    
+
     public class TarefaServiceTests
     {
         private readonly Mock<ITarefaRepository> _mockRepo;

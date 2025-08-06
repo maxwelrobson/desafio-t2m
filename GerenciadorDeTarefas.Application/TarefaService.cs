@@ -1,10 +1,5 @@
 ﻿using GerenciadorDeTarefas.Application.DTOs;
 using GerenciadorDeTarefas.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GerenciadorDeTarefas.Application
 {
@@ -43,7 +38,7 @@ namespace GerenciadorDeTarefas.Application
             );
         }
 
-        public async Task<TarefaResponseDTO?> AtualizarTarefaAsync  (Guid id, AtualizarTarefaRequestDTO tarefaDTO)
+        public async Task<TarefaResponseDTO?> AtualizarTarefaAsync(Guid id, AtualizarTarefaRequestDTO tarefaDTO)
         {
             //Busca a tarefa pelo ID
             var tarefaExistente = await _tarefaRepository.ObterPorIdAsync(id);

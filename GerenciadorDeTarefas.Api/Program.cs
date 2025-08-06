@@ -5,7 +5,7 @@ using GerenciadorDeTarefas.Infrastructure;
 var builder = WebApplication.CreateBuilder(args);
 
 // Nome da política de CORS
-var MyAllowSpecificOrigins = "_myAllowSpecificOrigins"; 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 //Serviço para habilitar o uso de Controllers
 builder.Services.AddControllers();
@@ -19,12 +19,12 @@ builder.Services.AddScoped<ITarefaRepository, TarefaRepository>();
 builder.Services.AddScoped<ITarefaService, TarefaService>();
 
 // Configuração do CORS
-builder.Services.AddCors(options => 
+builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: MyAllowSpecificOrigins,
         policy =>
         {
-            policy.WithOrigins("http://localhost:5173")
+            policy.WithOrigins("http://localhost:5173") // URL para frontend (Padrão React)
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });

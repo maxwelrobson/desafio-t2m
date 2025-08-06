@@ -1,43 +1,37 @@
-﻿using GerenciadorDeTarefas.Domain;
-using GerenciadorDeTarefas.Infrastructure;
-using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration.Json;
 
 namespace GerenciadorDeTarefas.Tests
 {
-    public class CustomWebApplicationFactory : WebApplicationFactory<Program> //<Program> se refere ao Program.cs da API
+    public class CustomWebApplicationFactory : WebApplicationFactory<Program>
     {
         protected override void ConfigureWebHost(IWebHostBuilder builder)
         {
-            builder.ConfigureTestServices(services =>
+            builder.ConfigureAppConfiguration((context, configBuilder) =>
             {
-                //remove a configuração do banco de dados real
-                var descriptor = services.SingleOrDefault(d => d.ServiceType == typeof(ITarefaRepository));
-
-                if (descriptor != null)
-                {
-                    services.Remove(descriptor);
-                }
-
-                services.AddScoped<ITarefaRepository>(CodePagesEncodingProvider =>
-                {
-                    var config = new ConfigurationBuilder()
-                    .AddInMemoryCollection(new Dictionary<string, string>
-                    {
-                        ["ConnectionStrings:DefaultConnection"] = "Server=localhost;Port=5432;Database=TarefasDb_Tests;User Id=postgres;Password=maxwel13;"
-                    })
+                //Faz uma configuração temporária que consegue ler os User Secrets
+                var tempConfig = new ConfigurationBuilder()
+                    .AddUserSecrets<CustomWebApplicationFactory>() // Lê os segredos associados a este projeto de teste
                     .Build();
 
-                    return new TarefaRepository(config);
+                //Pega a connection string de teste dos segredos
+                var testConnectionString = tempConfig.GetConnectionString("TestConnection");
+
+                //Remove as configurações antigas da API para garantir que não usem o banco de "verdade"
+                var appSettingsSource = configBuilder.Sources.OfType<JsonConfigurationSource>()
+                    .FirstOrDefault(s => s.Path == "appsettings.json");
+                if (appSettingsSource != null)
+                {
+                    configBuilder.Sources.Remove(appSettingsSource);
+                }
+
+                //Adiciona a connection string de teste em memória para a API usar
+                configBuilder.AddInMemoryCollection(new Dictionary<string, string>
+                {
+                    // A API vai procurar por "DefaultConnection", com isso ela vai usar a connection string de teste
+                    ["ConnectionStrings:DefaultConnection"] = testConnectionString!
                 });
             });
         }

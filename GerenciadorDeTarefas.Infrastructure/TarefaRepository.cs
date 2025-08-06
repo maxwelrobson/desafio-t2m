@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Dapper;
+﻿using Dapper;
 using GerenciadorDeTarefas.Domain;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
+using System.Data;
 
 
 namespace GerenciadorDeTarefas.Infrastructure
@@ -24,7 +19,7 @@ namespace GerenciadorDeTarefas.Infrastructure
 
         //Método que retorna uma conexão aberta com o banco
         private IDbConnection CreateConnection()
-        { 
+        {
             return new NpgsqlConnection(_connectionString);
         }
 

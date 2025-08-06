@@ -42,14 +42,14 @@ namespace GerenciadorDeTarefas.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CriarTarefaRequestDTO criarTarefaDto) //FromBody indica que o DTO vem no corpo da requisição, ele "converte" um JSON em um objeto C#
         {
-            if (!ModelState.IsValid) 
+            if (!ModelState.IsValid)
             {
-               return BadRequest(ModelState); // Retorna 400 se o modelo não for válido
+                return BadRequest(ModelState); // Retorna 400 se o modelo não for válido
             }
 
             var novaTarefa = await _tarefaService.CriarTarefaAsync(criarTarefaDto);
 
-            return CreatedAtAction(nameof(GetById), new {id = novaTarefa.Id }, novaTarefa); // Retorna 201 com a nova tarefa
+            return CreatedAtAction(nameof(GetById), new { id = novaTarefa.Id }, novaTarefa); // Retorna 201 com a nova tarefa
         }
 
         //PUT: api/taredas/{id}
@@ -57,13 +57,13 @@ namespace GerenciadorDeTarefas.Api.Controllers
         public async Task<IActionResult> Update(Guid id, [FromBody] AtualizarTarefaRequestDTO atualizarTarefaDto)
         {
             if (!ModelState.IsValid)
-            { 
+            {
                 return BadRequest(ModelState); // Retorna 400 se o modelo não for válido
             }
 
             var tarefaAtualizada = await _tarefaService.AtualizarTarefaAsync(id, atualizarTarefaDto);
             if (tarefaAtualizada == null)
-            { 
+            {
                 return NotFound(); // Retorna 404 se a tarefa não for encontrada
             }
 
@@ -82,7 +82,7 @@ namespace GerenciadorDeTarefas.Api.Controllers
 
             return NoContent(); // Retorna 204 sem conteúdo se a tarefa foi removida com sucesso
         }
-            
+
 
 
 
