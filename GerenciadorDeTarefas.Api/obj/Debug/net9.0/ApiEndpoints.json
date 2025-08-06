@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "GerenciadorDeTarefas.Api.Controllers.TarefasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Tarefas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciadorDeTarefas.Api.Controllers.TarefasController",
+    "Method": "Create",
+    "RelativePath": "api/Tarefas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarTarefaDto",
+        "Type": "GerenciadorDeTarefas.Application.DTOs.CriarTarefaRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciadorDeTarefas.Api.Controllers.TarefasController",
+    "Method": "GetById",
+    "RelativePath": "api/Tarefas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciadorDeTarefas.Api.Controllers.TarefasController",
+    "Method": "Update",
+    "RelativePath": "api/Tarefas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "atualizarTarefaDto",
+        "Type": "GerenciadorDeTarefas.Application.DTOs.AtualizarTarefaRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciadorDeTarefas.Api.Controllers.TarefasController",
+    "Method": "Delete",
+    "RelativePath": "api/Tarefas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

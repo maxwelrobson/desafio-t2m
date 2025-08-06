@@ -4,6 +4,9 @@ using GerenciadorDeTarefas.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Nome da política de CORS
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins"; 
+
 //Serviço para habilitar o uso de Controllers
 builder.Services.AddControllers();
 
@@ -14,6 +17,18 @@ builder.Services.AddSwaggerGen();
 //Registro das interfaces e implementações (Injeção de Dependência)
 builder.Services.AddScoped<ITarefaRepository, TarefaRepository>();
 builder.Services.AddScoped<ITarefaService, TarefaService>();
+
+// Configuração do CORS
+builder.Services.AddCors(options => 
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:5173")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
 
 var app = builder.Build();
 
@@ -26,6 +41,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(MyAllowSpecificOrigins);
 
 //Rotas definidas dos controllers
 app.MapControllers();
